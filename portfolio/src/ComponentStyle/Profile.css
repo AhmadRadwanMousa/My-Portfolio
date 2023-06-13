@@ -1,0 +1,21 @@
+.profile-card-holder {
+  width: 35rem;
+  height: 15rem;
+  background: linear-gradient(135deg, #34333376, rgb(23, 23, 23));
+  border-radius: 2rem;
+  box-shadow: rgba(37, 37, 37, 0.24) 0px 3px 8px;
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.profile-card-holder:hover {
+  transform: scale(1.05);
+}
+.profile-links-main-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}

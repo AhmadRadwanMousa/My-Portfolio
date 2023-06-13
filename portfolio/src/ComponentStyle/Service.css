@@ -1,0 +1,21 @@
+.service-main-card-holder {
+  width: 40rem;
+  height: 20rem;
+  background: linear-gradient(135deg, #34333376, rgb(23, 23, 23));
+  border-radius: 2rem;
+  box-shadow: rgba(37, 37, 37, 0.24) 0px 3px 8px;
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.service-main-card-holder:hover {
+  transform: scale(1.05);
+}
+.service-logos-holder {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 3rem;
+  align-items: center;
+}

@@ -1,0 +1,37 @@
+.navbar-main-holder {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-top: 1rem;
+  align-items: center;
+}
+.navbar-item-logo {
+  background-image: url("../Images/github-mark-white.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 4rem;
+  height: 4rem;
+  padding-top: 1rem;
+}
+.navbar-item {
+  font-size: 1.8rem;
+  color: white;
+  text-align: center;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.navbar-contact-btn {
+  width: 10rem;
+  height: 4rem;
+  border: none;
+  font-size: 1.3rem;
+  border-radius: 1rem;
+  background: linear-gradient(135deg, #34333376, rgb(23, 23, 23));
+  color: white;
+  transition: 0.5s ease-in;
+}
+.navbar-contact-btn:hover {
+  background-color: wheat;
+  transition: 0.5s ease-out;
+}

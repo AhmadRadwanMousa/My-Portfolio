@@ -1,0 +1,34 @@
+.footer-section-holder {
+  padding-top: 5rem;
+}
+.footer-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+.footer-links-sections {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  gap: 10rem;
+  color: #676767;
+}
+.footer-links {
+  transition: 0.4s ease-in;
+  cursor: pointer;
+}
+.footer-links:hover {
+  transition: 0.4s ease-out;
+  color: white;
+  opacity: 0.8;
+}
+.footer-logo {
+  background-image: url("../Images/github-mark-white.png");
+  width: 5rem;
+  height: 5rem;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}

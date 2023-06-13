@@ -1,0 +1,15 @@
+.card-text-holder {
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  opacity: 0.9;
+  gap: 0.5rem;
+}
+.card-label-text {
+  font-size: 1.2rem;
+  opacity: 0.5;
+}
+.card-category-text {
+  text-align: center;
+}

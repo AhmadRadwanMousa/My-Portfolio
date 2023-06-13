@@ -1,0 +1,7 @@
+.service-logo {
+  width: 3rem;
+  height: 4rem;
+  background-image: url("../Images/icons8-react-64.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
