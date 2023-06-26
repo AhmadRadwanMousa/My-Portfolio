@@ -13,9 +13,9 @@
   outline: 0.9;
 }
 .contact-links-wrapper {
+  width: 35rem;
   background: linear-gradient(135deg, #34333376, rgb(23, 23, 23));
   border-radius: 2rem;
-
   display: flex;
   gap: 1rem;
 }

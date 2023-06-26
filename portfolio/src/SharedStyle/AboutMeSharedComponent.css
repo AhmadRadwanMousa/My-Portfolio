@@ -1,0 +1,16 @@
+.about-me-shared-holder {
+  width: 45%;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+
+  gap: 1rem;
+  background: linear-gradient(135deg, #34333376, rgb(23, 23, 23));
+  border-radius: 2rem;
+}
+.about-me-header-label {
+  font-size: 1.5rem;
+  opacity: 0.9;
+  color: white;
+  padding: 1.2rem;
+}

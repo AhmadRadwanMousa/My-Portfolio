@@ -1,0 +1,15 @@
+.my-image-holder {
+  width: 30rem;
+  height: 22rem;
+  background: linear-gradient(135deg, #34333376, rgb(23, 23, 23));
+  border-radius: 2rem;
+}
+.my-image-div {
+  padding: 1rem;
+  width: 100%;
+  height: 100%;
+  border-radius: 3rem;
+  background-image: url("../../Images/351547281_767771111497157_3000192240985791895_n.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}

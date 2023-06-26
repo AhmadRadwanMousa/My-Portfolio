@@ -1,0 +1,42 @@
+.summary-holder {
+  width: 50rem;
+  display: flex;
+  height: 24rem;
+  flex-direction: column;
+}
+.summary-text {
+  font-size: 6rem;
+  color: white;
+  text-align: center;
+}
+.summary-text::before,
+.summary-text::after {
+  content: "";
+  padding: 1.5rem;
+  background-image: url("../../Images/star-2.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.summary-box {
+  background: linear-gradient(135deg, #34333376, rgb(23, 23, 23));
+  border-radius: 2rem;
+  width: 100%;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  color: white;
+  padding: 1.4rem;
+}
+.summary-name-p {
+  opacity: 0.9;
+  font-size: 3rem;
+}
+.summary-description-p {
+  font-size: 1.9rem;
+  outline: 0.3;
+  line-height: 2.5rem;
+  opacity: 0.8;
+}

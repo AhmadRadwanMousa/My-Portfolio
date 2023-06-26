@@ -9,7 +9,7 @@ export default function ContactPage() {
   return (
     <>
       <NavBar />
-      <ContentHolder>
+      <ContentHolder gapValue={10}>
         <ContactInformaiton />
         <ContactForm />
       </ContentHolder>
