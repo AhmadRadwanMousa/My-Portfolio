@@ -19,3 +19,13 @@
   gap: 3rem;
   align-items: center;
 }
+@media screen and (max-width: 576px) {
+  .service-main-card-holder {
+    width: 90%;
+    margin-left: 1.5rem;
+  }
+  .service-logos-holder {
+    flex-wrap: wrap;
+    max-width: 20rem;
+  }
+}

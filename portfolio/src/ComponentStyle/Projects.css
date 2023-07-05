@@ -28,3 +28,9 @@
 .projects-card-holder:hover .projects-card-logo {
   background-image: url("../Images/icons8-projects-64.png");
 }
+@media screen and (max-width: 576px) {
+  .projects-card-holder {
+    width: 90%;
+    margin-left: 1.5rem;
+  }
+}

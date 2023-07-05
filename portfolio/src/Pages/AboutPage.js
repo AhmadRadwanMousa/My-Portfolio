@@ -19,7 +19,10 @@ export default function AboutPage() {
           header={"EDUCATION"}
           start={[2019, ""]}
           end={2023}
-          label={["Bachelor Degree in Software Engineering", ""]}
+          label={[
+            "Bachelor Degree in Software Engineering GPA : (3.3/4) Very Good",
+            "",
+          ]}
           pos={["Jordan University of Science and Technology"]}
         />
         <AboutMeSharedComponent

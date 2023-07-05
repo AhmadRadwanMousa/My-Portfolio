@@ -19,3 +19,13 @@
   align-items: center;
   gap: 1rem;
 }
+@media screen and (max-width: 576px) {
+  .profile-card-holder {
+    width: 90%;
+    margin-left: 1.5rem;
+  }
+  .profile-links-main-holder {
+    max-width: 25rem;
+    flex-wrap: wrap;
+  }
+}

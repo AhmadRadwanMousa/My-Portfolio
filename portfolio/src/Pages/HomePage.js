@@ -10,7 +10,7 @@ import Profile from "../Component/Profile";
 import FooterSection from "../Shared/FooterSection";
 export default function HomePage() {
   return (
-    <div className="home-page-holder">
+    <>
       <Navbar />
       <ContentHolder>
         <AboutMe />
@@ -20,6 +20,6 @@ export default function HomePage() {
         <Profile />
       </ContentHolder>
       <FooterSection />
-    </div>
+    </>
   );
 }

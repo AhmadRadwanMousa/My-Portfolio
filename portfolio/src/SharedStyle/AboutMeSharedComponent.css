@@ -14,3 +14,10 @@
   color: white;
   padding: 1.2rem;
 }
+@media screen and (max-width: 576px) {
+  .about-me-shared-holder {
+    width: 90%;
+    margin-left: 1.5rem;
+    height: auto;
+  }
+}

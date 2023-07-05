@@ -13,3 +13,9 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+@media screen and (max-width: 576px) {
+  .my-image-holder {
+    width: 90%;
+    padding-left: 0.5rem;
+  }
+}

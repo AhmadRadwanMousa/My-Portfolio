@@ -9,7 +9,7 @@ export default function AboutMeSharedComponent(props) {
         start={props.start[0]}
         end={props.end}
         label={props.label[0]}
-        pos={props.pos}
+        pos={props.pos[0]}
       />
       {props.pos.length > 1 ? (
         <Time_label

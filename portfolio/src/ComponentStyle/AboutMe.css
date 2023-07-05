@@ -52,5 +52,11 @@
   font-size: 1.2rem;
   color: #ffffff;
   opacity: 0.7;
-  max-width: 12rem;
+  max-width: 10rem;
+}
+@media screen and (max-width: 576px) {
+  .about-main-holder {
+    margin-left: 1.5rem;
+    width: 90%;
+  }
 }
