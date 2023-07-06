@@ -33,9 +33,6 @@
   background-repeat: no-repeat;
 }
 @media screen and (max-width: 576px) {
-  .footer-section {
-    width: 100%;
-  }
   .footer-links-sections {
     width: 100%;
     gap: 4rem;

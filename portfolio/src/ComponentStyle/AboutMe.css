@@ -56,7 +56,19 @@
 }
 @media screen and (max-width: 576px) {
   .about-main-holder {
-    margin-left: 1.5rem;
     width: 90%;
+    margin-left: 1.5rem;
+  }
+  .personal-image {
+    width: 100%;
+  }
+  .about-content-holder {
+  }
+
+  .major-header-section {
+    font-size: 6vw;
+  }
+  .name-section {
+    font-size: 7.3vw;
   }
 }

@@ -2,3 +2,12 @@ body {
   background: rgb(23, 23, 23);
 }
 /*font-family: cursive;*/
+@media screen and (max-width: 576px) {
+  body {
+    width: 100%;
+    margin: 0 auto;
+  }
+  html {
+    width: 100%;
+  }
+}

@@ -63,3 +63,24 @@ span {
   transition: 0.5s ease-in;
   background-color: white;
 }
+@media screen and (max-width: 576px) {
+  .contact-form-holder {
+    width: 90%;
+    margin-left: 1.5rem;
+  }
+  .form-header-p {
+    font-size: 2.5rem;
+  }
+  .contact-form {
+    width: 100%;
+  }
+  .form-input-data {
+    width: 90%;
+  }
+  .form-input-message {
+    width: 90%;
+  }
+  .contact-form-button {
+    width: 92%;
+  }
+}

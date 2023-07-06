@@ -19,3 +19,21 @@
   display: flex;
   gap: 1rem;
 }
+@media screen and (max-width: 576px) {
+  .contact-information-section {
+    width: 100%;
+  }
+  .contact-section-holder {
+    width: 100%;
+    gap: 3rem;
+  }
+  .contact-label {
+    text-align: center;
+  }
+  .contact-links-wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 90%;
+    margin-left: 1.5rem;
+  }
+}
