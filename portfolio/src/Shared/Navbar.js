@@ -57,7 +57,7 @@ export default function Navbar() {
             <Link to={"/Contact"} className="navbar-links">
               Contact
             </Link>
-            <button className="navbar-contact-btn">Let's Work!</button>
+            <div className="navbar-links">Let's Work!</div>
           </div>
         </>
       )}

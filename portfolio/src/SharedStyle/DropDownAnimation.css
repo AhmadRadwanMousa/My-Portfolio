@@ -1,0 +1,18 @@
+.my-element {
+  animation: throwDown 2.3s ease-in-out;
+}
+
+@keyframes throwDown {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}

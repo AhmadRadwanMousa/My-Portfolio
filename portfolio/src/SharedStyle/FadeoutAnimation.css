@@ -1,0 +1,9 @@
+.scale-up-component {
+  transform-origin: center;
+  transform: scale(0);
+  transition: transform 1.5s ease-out;
+}
+
+.scale-up-component.scale-up {
+  transform: scale(1);
+}

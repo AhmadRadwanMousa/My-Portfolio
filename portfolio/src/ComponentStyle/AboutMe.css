@@ -9,7 +9,6 @@
 }
 .about-main-holder:hover {
   transform: scale(1.05);
-  border-radius: 2rem;
 }
 .about-main-holder:hover .personal-image {
   opacity: 1;
@@ -61,8 +60,6 @@
   }
   .personal-image {
     width: 100%;
-  }
-  .about-content-holder {
   }
 
   .major-header-section {

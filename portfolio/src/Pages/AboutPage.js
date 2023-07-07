@@ -8,13 +8,19 @@ import SelfSummary from "../Component/AboutComponents/SelfSummary";
 import AboutMeSharedComponent from "../Shared/AboutMeSharedComponent";
 import Credentials from "../Component/Credentials";
 import Profile from "../Component/Profile";
+import FadeoutAnimation from "../Shared/FadeoutAnimation";
+import DropDownAnimation from "../Shared/DropDownAnimation";
 export default function AboutPage() {
   return (
-    <>
+    <DropDownAnimation>
       <Navbar />
-      <ContentHolder gapValue={3}>
-        <MyImageComponent />
-        <SelfSummary />
+      <ContentHolder gapValue={2}>
+        <FadeoutAnimation>
+          <MyImageComponent />
+        </FadeoutAnimation>
+        <FadeoutAnimation>
+          <SelfSummary />
+        </FadeoutAnimation>
         <AboutMeSharedComponent
           header={"EDUCATION"}
           start={[2019, ""]}
@@ -32,10 +38,15 @@ export default function AboutPage() {
           label={["The Hope International ", "Udemy Courses"]}
           pos={["ASP.NET Core Developer", "Full stack MERE Developer"]}
         />
-        <Credentials />
-        <Profile />
+
+        <FadeoutAnimation>
+          <Credentials />
+        </FadeoutAnimation>
+        <FadeoutAnimation>
+          <Profile />
+        </FadeoutAnimation>
       </ContentHolder>
       <FooterSection />;
-    </>
+    </DropDownAnimation>
   );
 }
