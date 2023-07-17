@@ -7,6 +7,7 @@ import instagram from "../Images/icons8-instagram-150.png";
 import whatsapp from "../Images/icons8-whatsapp-150.png";
 import twitter from "../Images/icons8-twitter-150.png";
 import Cardtext from "../Shared/Cardtext";
+import { Link } from "react-router-dom";
 export default function Profile() {
   return (
     <div className="profile-card-holder">
@@ -17,9 +18,11 @@ export default function Profile() {
         <ProfileLinks url={twitter} />
         <ProfileLinks url={whatsapp} />
       </div>
-      <div className="profile-text-section">
-        <Cardtext TextLabel={"STAY WITH ME!"} TextCategory={"Profiles"} />
-      </div>
+      <Link to={"/Contact"} className="links-class">
+        <div className="profile-text-section">
+          <Cardtext TextLabel={"STAY WITH ME!"} TextCategory={"Profiles"} />
+        </div>
+      </Link>
     </div>
   );
 }

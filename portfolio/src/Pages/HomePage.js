@@ -17,29 +17,19 @@ export default function HomePage() {
       <Navbar />
       <ContentHolder>
         <FadeoutAnimation>
-          <Link to={"/About"} className="links-class">
-            <AboutMe />
-          </Link>
+          <AboutMe />
         </FadeoutAnimation>
         <FadeoutAnimation>
-          <Link to={"/Credentials"} className="links-class">
-            <Credentials />
-          </Link>
+          <Credentials />
         </FadeoutAnimation>
         <FadeoutAnimation>
-          <Link to={"/Work"} className="links-class">
-            <Projects />
-          </Link>
+          <Projects />
         </FadeoutAnimation>
         <FadeoutAnimation>
-          <Link to={"/Services"}>
-            <Service />
-          </Link>
+          <Service />
         </FadeoutAnimation>
         <FadeoutAnimation>
-          <Link to={"/Contact"}>
-            <Profile />
-          </Link>
+          <Profile />
         </FadeoutAnimation>
       </ContentHolder>
       <FooterSection />

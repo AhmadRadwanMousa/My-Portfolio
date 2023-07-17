@@ -13,6 +13,10 @@
   color: white;
   padding: 1.2rem;
 }
+.my-about-data-holder-yes {
+  display: flex;
+  flex-wrap: wrap;
+}
 @media screen and (max-width: 576px) {
   .about-me-shared-holder {
     width: 90%;

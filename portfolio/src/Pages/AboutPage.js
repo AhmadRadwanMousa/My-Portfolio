@@ -11,6 +11,34 @@ import Profile from "../Component/Profile";
 import FadeoutAnimation from "../Shared/FadeoutAnimation";
 import DropDownAnimation from "../Shared/DropDownAnimation";
 export default function AboutPage() {
+  const EductionData = [
+    {
+      startDate: 2019,
+      EndDate: 2023,
+      label: "Bachelor Degree in Software Engineering GPA : (3.3/4) Very Good",
+      CompanyName: "Jordan University of Science and Technology",
+    },
+  ];
+  const ExperienceData = [
+    {
+      startDate: "Feb 2023",
+      EndDate: "June 2023",
+      label: "ASP.NET Core MVC Developer",
+      CompanyName: "The Hope International",
+    },
+    {
+      startDate: "Feb 2023",
+      EndDate: "June 2023",
+      label: ".NET Full Stack Developer",
+      CompanyName: "Tahaluf Al Emarat Technical Solutions",
+    },
+    {
+      startDate: "Jan 2023",
+      EndDate: "July 2023",
+      label: "MERN Stack Developer",
+      CompanyName: "Udemy",
+    },
+  ];
   return (
     <DropDownAnimation>
       <Navbar />
@@ -23,20 +51,13 @@ export default function AboutPage() {
         </FadeoutAnimation>
         <AboutMeSharedComponent
           header={"EDUCATION"}
-          start={[2019, ""]}
-          end={2023}
-          label={[
-            "Bachelor Degree in Software Engineering GPA : (3.3/4) Very Good",
-            "",
-          ]}
-          pos={["Jordan University of Science and Technology"]}
+          MyData={EductionData}
+          wrap={""}
         />
         <AboutMeSharedComponent
           header={"EXPERIENCE"}
-          start={[2022, 2023]}
-          end={2023}
-          label={["The Hope International ", "Udemy Courses"]}
-          pos={["ASP.NET Core Developer", "Full stack MERE Developer"]}
+          MyData={ExperienceData}
+          wrap={"yes"}
         />
 
         <FadeoutAnimation>

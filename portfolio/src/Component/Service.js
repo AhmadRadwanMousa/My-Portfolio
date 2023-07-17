@@ -7,6 +7,7 @@ import javaScript from "../Images/icons8-javascript-480.png";
 import dotNet from "../Images/NET_Core_Logo.svg";
 import nodeJs from "../Images/icons8-node-js-240.png";
 import mongo from "../Images/pngwing.com.png";
+import { Link } from "react-router-dom";
 export default function Service() {
   return (
     <div className="service-main-card-holder">
@@ -18,10 +19,12 @@ export default function Service() {
         <Logo url={mongo} />
       </div>
       <div className="service-text-holder">
-        <Cardtext
-          TextLabel={"SPECIALIZATION"}
-          TextCategory={"Services Offered"}
-        />
+        <Link to={"/Services"} className="links-class">
+          <Cardtext
+            TextLabel={"SPECIALIZATION"}
+            TextCategory={"Services Offered"}
+          />
+        </Link>
       </div>
     </div>
   );

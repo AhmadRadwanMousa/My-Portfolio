@@ -1,0 +1,37 @@
+.my-card-credentials-holder {
+  width: 20em;
+  height: auto;
+  background: linear-gradient(135deg, #34333376, rgb(23, 23, 23));
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.my-card-image {
+  width: 90%;
+  height: 15rem;
+  background-position: start;
+  background-repeat: no-repeat;
+  border-radius: 1rem;
+  background-size: cover;
+  background-image: url("../../Images/351547281_767771111497157_3000192240985791895_n.jpg");
+}
+.contact-me-credentials-btn {
+  width: 70%;
+  height: 2.5rem;
+  border-radius: 1rem;
+  border: none;
+  color: white;
+  text-align: center;
+  background: linear-gradient(135deg, #34333376, rgb(54, 51, 51));
+  box-shadow: rgba(37, 37, 37, 0.24) 0px 3px 8px;
+  transition: 0.5s ease-in;
+}
+.contact-me-credentials-btn:hover {
+  background-color: white;
+  transition: 0.5s ease-out;
+}
