@@ -1,0 +1,14 @@
+.progress-container {
+  width: 50%;
+  height: 10px;
+  border-radius: 1rem;
+  background-color: #e0e0e0;
+}
+
+.progress-line {
+  height: 100%;
+  background-color: #145298;
+  width: 20rem;
+
+  transition: width 0.5s ease-in-out;
+}

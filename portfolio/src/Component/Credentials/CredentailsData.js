@@ -1,20 +1,15 @@
 import React from "react";
 import "../../ComponentStyle/Credentails/CredentailsData.css";
 
-export default function CredentailsData() {
+export default function CredentailsData(props) {
   return (
     <div className="credentials-data-holder">
-      <p>EXPERIENCE</p>
-      <label>2007 - 2017</label>
-      <h2>Framer Designer & Developer</h2>
-      <label>Bluebase Designs</label>
-      <p>
-        Sit amet luctussd fav venenatis, lectus magna fringilla inis urna,
-        porttitor rhoncus dolor purus non enim praesent in elementum sahas
-        facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etisam
-        dignissim diam quis enim lobortis viverra orci sagittis eu volutpat odio
-        facilisis mauris sit
-      </p>
+      <label>
+        {props.start} - {props.end}
+      </label>
+      <h2 style={{ color: "#5b78f6" }}>{props.position}</h2>
+      <label>{props.company}</label>
+      <p>{props.About}</p>
     </div>
   );
 }

@@ -9,7 +9,9 @@ export default function CredentialsPage() {
     <>
       <Navbar />
       <ContentHolder gapValue={10}>
-        <MyCard />
+        <div className="sticky-view">
+          <MyCard />
+        </div>
         <CredentailSection />
       </ContentHolder>
     </>
