@@ -1,2 +1,7 @@
 .skill-wrapper {
 }
+@media screen and (max-width: 576px) {
+  .skill-wrapper {
+    width: 45%;
+  }
+}

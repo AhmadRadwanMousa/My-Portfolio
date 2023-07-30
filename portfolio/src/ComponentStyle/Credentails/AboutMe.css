@@ -3,3 +3,14 @@
 label {
   opacity: 0.7;
 }
+@media screen and (max-width: 576px) {
+  .credentials-about-me-holder h3 {
+    max-width: 100%;
+    font-size: 1rem;
+    text-align: center;
+  }
+  .credentials-about-me-holder {
+    width: 100vw;
+    height: auto;
+  }
+}

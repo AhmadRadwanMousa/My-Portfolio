@@ -1,0 +1,14 @@
+.skills-container {
+  display: flex;
+  gap: 2.3rem;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 576px) {
+  .skills-container {
+    width: 100vw;
+    max-height: 50rem;
+    gap: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
